@@ -4,6 +4,7 @@ import { listTasks } from "../store/actions/tasks.actions";
 
 const ToDoForm = (props) => {
   const [input, setInput] = useState("");
+  //redux code crashed the app before submission and there was no time to fix it
   // const dispatch = useDispatch();
   // const tskRedux = useSelector((state) => state.tasks);
   // const { loading: reduxLoding, success, repos } = tskRedux;
